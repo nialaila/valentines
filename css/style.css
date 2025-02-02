@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, serif;
+    color: black;
+    background-color: lightpink;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    border: 6px solid red;
+    padding: 5px;
+    width: 560px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.cat .buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: red;
+    background: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+main {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 460px;
+    margin-right: 460px;
+    line-height: 2;
+}
