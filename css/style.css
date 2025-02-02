@@ -1,5 +1,6 @@
 body {
     font-family: Georgia, serif;
+    font-size: medium;
     color: black;
     background-color: lightpink;
     margin-top: 20px;
@@ -12,7 +13,7 @@ img {
     border-radius: 8px;
     border: 6px solid red;
     padding: 5px;
-    width: 560px;
+    width: 385px;
     text-align: center;
     margin-top: 65px;
 }
@@ -28,12 +29,70 @@ img {
     background: white;
     padding: 10px 25px;
     border-radius: 8px;
+    font-weight: bolder;
 }
 
 main {
     text-align: left;
     margin-top: 60px;
-    margin-left: 460px;
-    margin-right: 460px;
+    margin-left: 300px;
+    margin-right: 300px;
     line-height: 2;
+}
+
+.startover {
+    display: flex;
+}
+
+.startover a {
+    text-decoration: none;
+    color: red;
+    background: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .loader {
+    position: absolute;
+    top: 82%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid red;
+    border-right: 8px solid rgb(252, 110, 134);
+    border-bottom: 8px solid red;
+    border-left: 8px solid rgb(252, 110, 134);
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} */
+
+.btns {
+    display: flex;
+    /* gap: 50px; */
+}
+.btns a {
+    text-decoration: none;
+    color: red;
+    background: white;
+    padding: 20px 50px; /* Increase padding for a bigger button */
+    font-size: 32px; /* Increase text size */
+    border-radius: 12px; /* Slightly larger border-radius */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold; /* Make text bolder */
 }
