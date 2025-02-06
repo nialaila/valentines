@@ -1,12 +1,40 @@
 body {
     font-family: Georgia, serif;
-    font-size: medium;
+    font-size: 20px;
     color: black;
     background-color: lightpink;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
+}
+
+@media screen and (max-width: 469px) {
+    body {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 10px;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 377px) {
+    body {
+        font-size: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
 }
 
 img {
@@ -16,6 +44,34 @@ img {
     width: 385px;
     text-align: center;
     margin-top: 65px;
+}
+
+@media screen and (max-width: 469px) {
+    img {
+        border-radius: 5px;
+        padding: 3px;
+        width: 185px;
+        text-align: center;
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width: 576px) {
+    img {
+        border-radius: 5px;
+        padding: 3px;
+        width: 200px;
+        text-align: center;
+        margin-top: 65px;
+    }
+}
+@media screen and (max-width: 377px) {
+    img {
+        border-radius: 5px;
+        padding: 1px;
+        width: 85px;
+        text-align: center;
+        margin-top: 10px;
+    }
 }
 
 .cat .buttons {
@@ -32,15 +88,52 @@ img {
     font-weight: bolder;
 }
 
+@media screen and (max-width: 469px) {
+    .buttons a {
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+}
+@media screen and (max-width: 377px) {
+    .buttons a {
+        padding: 2px 10px;
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+}
+
 main {
     text-align: left;
+    font-size: large;
     margin-top: 60px;
     margin-left: 300px;
     margin-right: 300px;
     line-height: 2;
 }
 
-.startover {
+@media screen and (max-width: 469px) {
+    main {
+        text-align: left;
+        font-size: small;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+        line-height: 2;
+    }
+}
+@media screen and (max-width: 377px) {
+    main {
+        text-align: left;
+        font-size: small;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        line-height: 2;
+    }
+}
+
+/* .startover {
     display: flex;
 }
 
@@ -57,6 +150,21 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 469px) {
+    .startover a {
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+}
+@media screen and (max-width: 377px) {
+    .startover a {
+        padding: 2px 10px;
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+} */
 
 /* .loader {
     position: absolute;
